@@ -1,0 +1,99 @@
+.home{
+    height:90vh;
+    width:75%;
+    margin:0px 20px 20px 200px ;
+    /* border:1px solid red; */
+    overflow: scroll;
+    -ms-overflow-style: none; /* Hide scrollbar in IE */
+    scrollbar-width: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+
+
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}
+.home {
+    -webkit-overflow-scrolling: touch;
+}
+.home i{
+    color:grey;
+    font-size: 10px;
+}
+.home button{
+    background-color: black;
+    color:white;
+    border:0px solid red;
+}
+.homeProfile{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid red; */
+    margin-top: 0px;
+    margin-left: 50px;
+    display: flex;
+    /* justify-content: center; */
+    gap:10px;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.homeProfileImg{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background:rgb(96, 198, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homeEmail{
+    /* border:1px solid red; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    color:rgb(198, 198, 198);
+    font-size: small;
+}
+@media only screen and (max-width: 768px){
+    .home{
+        height:90vh;
+        width:90%;
+        margin:70px auto ;
+        /* border:1px solid red; */
+    }
+    .homeProfile{
+        height:fit-content;
+        width:100%;
+        /* border:1px solid red; */
+        margin-top: 0px;
+        display: flex;
+        /* justify-content: center; */
+        gap:10px;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .homeProfileImg{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+        background:rgb(96, 198, 207);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .homeEmail{
+        /* border:1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}

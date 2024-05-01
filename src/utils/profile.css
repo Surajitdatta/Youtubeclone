@@ -1,0 +1,23 @@
+.profile{
+    height:90vh;
+    width:75%;
+    margin:20px 20px 20px 200px ;
+    border:1px solid red;
+    overflow: scroll;
+    -ms-overflow-style: none; /* Hide scrollbar in IE */
+    scrollbar-width: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px){
+    .profile{
+        height:90vh;
+        width:90%;
+        margin:70px auto ;
+        /* border:1px solid red; */
+    }
+    
+
+}

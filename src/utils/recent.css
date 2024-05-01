@@ -1,0 +1,59 @@
+.recent{
+    height:90vh;
+    width:75%;
+    margin:20px 20px 20px 200px ;
+    /* border:1px solid red; */
+    /* overflow: scroll; */
+    padding-left:30px;
+}
+.recent h2{
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.recentMain{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 20px;
+    
+
+}
+.recentCard{
+    height:fit-content;
+    width:80%;
+    /* border:1px solid red; */
+    display:flex;
+    
+    gap:15px 
+    
+}
+.recentMain {
+    overflow: auto; /* Enable scrolling */
+    -ms-overflow-style: none; /* Hide scrollbar in IE */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    height: 100%; /* Specify the height */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.recentMain::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optional: Add smooth scrolling for WebKit browsers */
+.recentMain {
+    -webkit-overflow-scrolling: touch;
+}
+
+.recent i{
+    color:grey;
+    font-size: 10px;
+}
+@media only screen and (max-width: 768px){
+    .recent{
+        height:90vh;
+        width:90%;
+        margin:70px auto ;
+        /* border:1px solid red; */
+    }
+    
+
+}

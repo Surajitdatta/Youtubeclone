@@ -1,0 +1,52 @@
+.later{
+    height:90vh;
+    width:75%;
+    margin:20px 20px 20px 200px ;
+   
+    overflow: auto;;
+
+}
+.later::-webkit-scrollbar {
+    display: none;
+}
+.btn button{
+    padding:8px;
+    border-radius: 6px;
+    
+    font-size:15px;
+    
+
+}
+.laterCardMain{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.laterCard{
+    height:fit-content;
+    width:fit-content;
+    
+}
+.btn{
+    position:sticky;
+    top:0px;
+}
+.single_later{
+    display:flex;
+    gap:10px;
+}
+.laterContent i{
+    color:rgb(194, 190, 190);
+    font-size: 10px;;
+    
+}
+@media only screen and (max-width: 768px){
+    .later{
+        height:90vh;
+        width:90%;
+        margin:70px auto ;
+       
+    }
+}
